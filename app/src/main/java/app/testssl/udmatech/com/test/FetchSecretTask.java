@@ -54,7 +54,7 @@ public class FetchSecretTask extends AsyncTask<Void, Void, Object> {
 			KeyPinStore keystore = KeyPinStore.getInstance();
 
             // Tell the URLConnection to use a SocketFactory from our SSLContext
-			URL url = new URL( "https://bailoremahishamardhini.com");
+			URL url = new URL( "https://bmmt.com");
 			//URL url = new URL( "https://google.com");
             HttpsURLConnection urlConnection = (HttpsURLConnection)url.openConnection();
             urlConnection.setSSLSocketFactory(keystore.getContext().getSocketFactory());
